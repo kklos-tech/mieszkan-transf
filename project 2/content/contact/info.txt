@@ -1,0 +1,5 @@
+Email: kontakt@mieszkancom.pl
+Phone: +48 123 456 789
+Location: Polska
+Address: (opcjonalnie: pełny adres)
+Hours: Pon-Pt: 9:00-17:00

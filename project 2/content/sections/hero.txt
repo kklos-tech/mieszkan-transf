@@ -1,0 +1,8 @@
+Title: Mieszkancom
+Subtitle: Funkcjonalność w przestrzeni, na czas
+Catchphrase1: Ergonomia. Przestrzeń. Zdrowie.
+Catchphrase2: Projektujemy z myślą o Twoim komforcie
+Catchphrase3: Twoja przestrzeń, Twoje zdrowie
+Catchphrase4: Optymalizujemy Twoją przestrzeń
+ButtonText: Zobacz nasze projekty
+ButtonLink: #projekty

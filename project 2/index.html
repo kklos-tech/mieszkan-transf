@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mieszkan.com - Projektowanie ergonomiczne przestrzeni. Optymalizujemy rzutu z myślą o Twoim komforcie i kieszeni." />
+    <meta name="keywords" content="projektowanie ergonomiczne, architektura wnętrz, optymalizacja przestrzeni, zmiany lokatorskie, konsultacje architektoniczne, Polska, deweloper, antydeweloper, " />
+    <meta name="author" content="Studioniepokoj.pl" />
+    <meta property="og:title" content="Mieszkan.com Należy się funkcjonalność" />
+    <meta property="og:description" content="Projektowanie ergonomiczne przestrzeni. Poprawiamy rzuty deweloperskie z myślą o Twoim komforcie." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Mieszkan.com Należy się funkcjonalność</title>
+  </head>
+  <body>
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#hero">
+            <svg class="logo-svg" viewBox="0 0 200 41.148" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <g>
+                  <polygon points="195.809,36.96 4.189,36.96 4.189,4.19 114.629,4.19 114.629,5.041 5.038,5.041 5.038,36.109 194.959,36.109 194.959,5.041 130.648,5.041 130.648,4.19 195.809,4.19 "/>
+                </g>
+                <g>
+                  <polyline points="191.971,39.946 195.385,36.536 198.797,33.122 "/>
+                  <rect x="193.687" y="31.706" transform="matrix(0.7073 0.707 -0.707 0.7073 83.0271 -127.4353)" width="3.398" height="9.655"/>
+                </g>
+                <g>
+                  <polyline points="191.971,8.028 195.385,4.616 198.797,1.202 "/>
+                  <rect x="193.686" y="-0.212" transform="matrix(0.7071 0.7071 -0.7071 0.7071 60.4903 -136.807)" width="3.399" height="9.654"/>
+                </g>
+                <g>
+                  <polyline points="1.201,39.946 4.614,36.536 8.027,33.122 "/>
+                  <rect x="2.914" y="31.707" transform="matrix(0.7069 0.7073 -0.7073 0.7069 27.1931 7.4458)" width="3.396" height="9.653"/>
+                </g>
+                <g>
+                  <polyline points="1.201,8.028 4.614,4.616 8.027,1.202 "/>
+                  <rect x="2.914" y="-0.211" transform="matrix(0.7067 0.7075 -0.7075 0.7067 4.6174 -1.9099)" width="3.397" height="9.652"/>
+                </g>
+                <g>
+                  <g>
+                    <polygon points="122.207,7.838 117.457,1.866 126.957,1.866 "/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M14.298,11.853h3.491l5.607,8.231l5.607-8.231h3.489v17.139h-4.765V20.95l-2.791,3.995h-3.081 l-2.793-4.043v8.089h-4.765V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M34.249,11.853h4.815v17.139h-4.815V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M40.82,11.853h12.95v3.994h-8.137v2.456h7.391v3.899h-7.391v2.792h8.282v3.997H40.82V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M53.408,26.606l3.01-3.008c1.251,1.202,2.598,1.829,4.187,1.829c1.325,0,1.999-0.434,1.999-1.132 c0-2.456-7.967-1.469-7.967-7.389c0-3.322,2.527-5.344,6.425-5.344c2.552,0,4.863,0.866,6.307,2.358l-3.032,3.009 c-1.06-1.035-2.07-1.517-3.321-1.517c-1.012,0-1.639,0.313-1.639,0.964c0,2.334,7.967,1.299,7.967,7.412 c0,3.489-2.598,5.488-7.122,5.488C57.283,29.278,55.237,28.46,53.408,26.606z"/>
+                  </g>
+                  <g>
+                    <path d="M67.465,25.644l7.412-9.819h-7.028v-3.972H81.23v3.345l-7.437,9.821h7.221v3.973H67.465V25.644z"/>
+                  </g>
+                  <g>
+                    <path d="M82.24,11.853h4.815v7.631l5.293-7.631h5.8l-6.039,8.158l6.305,8.98h-5.777l-5.583-8.33v8.33H82.24 V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M103.229,11.853h4.91l6.449,17.139h-5.006l-0.939-2.891h-6.063l-0.964,2.891h-4.91L103.229,11.853z M107.393,22.347l-1.733-5.319l-1.807,5.319H107.393z"/>
+                  </g>
+                  <g>
+                    <path d="M114.506,11.853h3.369l7.221,9.074v-9.074h4.813v17.139h-3.61l-6.98-8.762v8.762h-4.812V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M130.314,26.63c0-1.491,1.107-2.672,2.623-2.672c1.492,0,2.6,1.181,2.6,2.672 c0,1.492-1.107,2.648-2.6,2.648C131.422,29.278,130.314,28.122,130.314,26.63z"/>
+                  </g>
+                  <g>
+                    <path d="M134.205,20.397c0-5.104,4.041-8.834,9.288-8.834c2.672,0,4.91,0.891,6.547,2.358l-3.2,3.226 c-0.771-0.843-1.877-1.349-3.347-1.349c-2.575,0-4.38,1.759-4.38,4.599c0,2.863,1.805,4.645,4.38,4.645 c1.444,0,2.575-0.457,3.418-1.324l3.226,3.225c-1.709,1.47-3.73,2.336-6.596,2.336C138.295,29.278,134.205,25.499,134.205,20.397 z"/>
+                  </g>
+                  <g>
+                    <path d="M148.217,20.397c0-5.104,3.924-8.881,9.289-8.881c5.369,0,9.292,3.776,9.292,8.904 c0,5.104-3.923,8.906-9.243,8.906C152.188,29.327,148.217,25.499,148.217,20.397z M161.889,20.397 c0-2.84-1.711-4.646-4.383-4.646c-2.694,0-4.379,1.807-4.379,4.646c0,2.863,1.685,4.692,4.379,4.692 C160.203,25.09,161.889,23.261,161.889,20.397z"/>
+                  </g>
+                  <g>
+                    <path d="M167.344,11.853h3.492l5.607,8.231l5.607-8.231h3.488v17.139h-4.765V20.95l-2.791,3.995h-3.081 l-2.793-4.043v8.089h-4.766V11.853z"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <button class="hamburger" aria-label="Menu" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+         
+          
+           <li><a href="#idea">Idea</a></li>
+          
+          <li><a href="#schemat">Scenariusze</a></li>      
+           <li><a href="#projekty">Projekty</a></li>
+          <li><a href="#cennik">Cena</a></li>
+          <li><a href="#proces">Proces</a></li>         
+          <li><a href="#zeznania">Opinie</a></li>
+          <li><a href="#image-faq">Pytania</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+    <main>
+    
+      <section id="hero" class="hero-section">
+      
+<div class="hero-background-wrapper">
+ 
+   <!-- HERO PHOTOS -->
+  
+  <img class="hero-background active" src="https://images.pexels.com/photos/7937319/pexels-photo-7937319.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nowoczesne wnętrze mieszkania z ergonomicznym projektowaniem">
+<img class="hero-background" src="https://images.pexels.com/photos/7203836/pexels-photo-7203836.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Promocja, noworoczna">
+<img class="hero-background" src="/images/hero-05.jpg" alt="Promocja 2">
+  
+<img class="hero-background" src="/images/hero-06.jpg">
+<img class="hero-background" src="https://images.pexels.com/photos/4792483/pexels-photo-4792483.jpeg?auto=compress&cs=tinysrgb&w=1000">
+<img class="hero-background" src="/images/hero-07.jpg">
+<img class="hero-background" src="https://images.pexels.com/photos/8266851/pexels-photo-8266851.jpeg?auto=compress&cs=tinysrgb&w=1000">
+</div>
+
+        
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Należy się funkcjonalność</h1>
+       <!--<p class="hero-subtitle">Tobie i Twojej przestrzeni</p>  -->
+           
+          
+        
+          <div class="hero-rotating">          
+            <span class="rotating-text active">Nowa jakość na miarę</span>
+            <span class="rotating-text">Po Targach -20%</span>
+            <span class="rotating-text">Zamów AUDYT na wiosnę</span>
+            <span class="rotating-text">Rozsądnie. Szybko. Niedrogo.</span>
+             
+            <span class="rotating-text">Projektujemy z myślą o Twoim komforcie</span>
+            <span class="rotating-text">Timing is everything.</span>
+            <span class="rotating-text">Optymalizujemy Twoją przestrzeń</span>
+                      
+          </div>
+          <a href="#idea" class="cta-button">W czym rzecz?</a>
+        </div>
+      
+      </section>
+
+      
+  <section id="idea" class="idea-section">
+        <img src="https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Szczegóły nowoczesnego wnętrza z ergonomicznym projektowaniem" class="idea-background">
+        <div class="idea-overlay"></div>
+        <div class="container">
+          <h2>Funkcjonalność fundamentem</h2>
+          <article class="idea-content">
+<p class="fade-in"> 
+Jest pewna tendencja na rynku nieruchomości: Niestety <b>metr²</b> drożeje, a jego jakość spada. Dlatego naszym głównym celem stała się optymalizacja przestrzeni mieszkalnych i usługowych pod kątem funkcjonalności i ergonomii. <b>Max użyteczności w estetycznej formie</b>. 
+</p>
+<p class="fade-in">
+Absolutna większość lokali od deweloperów to powielone moduły. Rzadko są dopracowane, jeszcze rzadziej dopasowane <b>do indywidualnych potrzeb</b>. Jako Mieszkan.com tworzymy przestrzenie, które poprawiają rutynę Twojego dnia. Tu znacznie ma każdy metr kwadratowy; kolejność pomieszczeń, cyrkulacja powietrza, oświetlenie, instalacje, gabaryt mebli (…). To wszystko wpływa na jakość życia. Znamy się na tym, bo misją architekta jest <b>podnosić tę jakość</b>, zostawiając Użytkownikowi <b>przestrzeń do rozwoju</b>. 
+</p>
+<p class="fade-in">
+Nasze interwencje skupiają się na kluczowych kwestiach, co pozwala działać <b>niedrogo i szybko</b>. Np. zanim deweloper odda lokal - choć to niekoniecznie jest Twój przypadek, a <b><a href="#schemat">Scenariusze</a></b> są różne. Ostatecznie oznacza to realne oszczędności - unikasz kosztownego remontu po odbiorze lub cofania nieprzemyślanych rozwiązań. To inwestycja w pewność, że ważne sprawy zmierzają <b>w dobrym kierunku</b>. 
+</p>
+
+
+
+          </article>
+        </div>
+      </section>
+   
+
+   
+      
+<!-- WKLEJ DO TWOJEGO HTML (alternatywna wersja 2 schematów) -->
+<section id="schemat" class="schemat-alter2-section">
+  <div class="container">
+    <!-- Header -->
+    <div class="schemat-header">
+      <h2>Dlaczego audyt nieruchomości?</h2>
+      <p class="schemat-subtitle">Wybierz swoją sytuację i zobacz jak możemy pomóc</p>
+    </div>
+
+    <!-- Scenario Selection -->
+    <div id="scenario-selector" class="scenario-grid">
+      <!-- Scenariusze generowane przez JavaScript -->
+    </div>
+
+    <!-- Flowchart Container (hidden initially) -->
+    <div id="flowchart-container" class="flowchart-container" style="display: none;">
+      <button id="back-btn" class="back-btn">← Powrót do wyboru</button>
+
+      <!-- Flowchart Grid -->
+      <div id="flowchart-steps" class="flowchart-grid"></div>
+    </div>
+
+    <!-- CTA Final -->
+    <div class="schemat-cta-box">
+      <h3>Gotowy na audyt?</h3>
+      <p>Umów się na bezpłatną konsultację. Porozmawiajmy o Twoim lokalu.</p>
+      <div class="cta-buttons">
+        <a href="#kontakt" class="btn-schemat-cta">Skontaktuj się z nami</a>
+        <button id="collapse-btn" class="btn-collapse" style="display: none;">Zwiń schemat</button>
+      </div>
+    </div>
+  </div>
+</section>
+     
+
+
+<!-- WKLEJ DO TWOJEGO HTML -->
+<section id="projekty" class="projekty-section">
+  <div class="container">
+    <!-- Header -->
+    <div class="projekty-header">
+      <h2>Przykłady Projektów</h2>
+      <p class="projekty-subtitle">Zobacz jak pomagamy naszym klientom optymalizować przestrzeń</p>
+    </div>
+
+    <!-- Project Container -->
+    <div class="projekt-container">
+      <!-- Project Content -->
+      <div id="projekt-content" class="projekt-content">
+        <!-- Dynamically filled by JavaScript -->
+      </div>
+
+      <!-- Project Indicator -->
+      <div class="projekt-indicator">
+        <span id="projekt-current">1</span> / <span id="projekt-total">3</span>
+      </div>
+    </div>
+  </div>
+</section>
+      
+<!-- WKLEJ DO TWOJEGO HTML -->
+<!-- CEEEEENAAAA -->
+<section id="cennik" class="cennik-section">
+  <div class="container">
+    <!-- Header -->
+    <div class="cennik-header">
+      <h2>Cennik Audytów</h2>
+      <p class="cennik-subtitle">Dopasuj audyt do swoich potrzeb i budżetu</p>
+    </div>
+
+    <!-- Info Box -->
+    <div class="cennik-info-box">
+      <h3>Każda sytuacja jest inna</h3>
+      <p>Pamiętaj, że inwestycja w dobrze zaprojektowaną przestrzeń zwraca się przez lata komfortowego użytkowania. Ostateczna cena zależy od kilku czynników:</p>
+      <div class="cennik-questions">
+        <div class="question-item">
+
+<svg height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 302.967 302.967" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path style="fill:#52fcae;" d="M151.483,302.967C67.956,302.967,0,235.017,0,151.483S67.956,0,151.483,0 s151.483,67.956,151.483,151.483S235.017,302.967,151.483,302.967z M151.483,24.416c-70.066,0-127.067,57.001-127.067,127.067 s57.001,127.067,127.067,127.067s127.067-57.001,127.067-127.067S221.555,24.416,151.483,24.416z"></path> </g> <g> <g> <path style="fill:#2f79ff;" d="M116.586,118.12c1.795-4.607,4.297-8.588,7.511-11.961c3.225-3.389,7.114-6.016,11.667-7.898 c4.547-1.904,9.633-2.845,15.262-2.845c7.261,0,13.32,0.995,18.183,2.997c4.857,1.996,8.768,4.482,11.738,7.441 c2.964,2.97,5.091,6.168,6.369,9.584c1.273,3.432,1.915,6.636,1.915,9.595c0,4.901-0.642,8.947-1.915,12.118 c-1.278,3.171-2.866,5.88-4.759,8.131c-1.898,2.252-3.987,4.172-6.293,5.755c-2.295,1.588-4.471,3.171-6.516,4.759 c-2.045,1.583-3.862,3.394-5.445,5.439c-1.588,2.04-2.589,4.601-2.991,7.664v5.831H140.6v-6.908 c0.305-4.395,1.153-8.072,2.529-11.036c1.382-2.964,2.991-5.499,4.83-7.598c1.844-2.089,3.786-3.911,5.836-5.445 c2.04-1.539,3.927-3.073,5.673-4.591c1.73-1.545,3.144-3.225,4.221-5.069c1.071-1.833,1.556-4.15,1.452-6.908 c0-4.705-1.148-8.18-3.454-10.427c-2.295-2.257-5.493-3.378-9.589-3.378c-2.758,0-5.134,0.533-7.131,1.605 s-3.628,2.513-4.911,4.302c-1.278,1.795-2.225,3.894-2.834,6.288c-0.615,2.415-0.919,4.982-0.919,7.756h-22.55 C113.85,127.785,114.791,122.732,116.586,118.12z M162.536,183.938v23.616h-24.09v-23.616H162.536z"></path> </g> </g> </g> </g> </g></svg>
+          <span>Czy to ma być szybka opinia, czy pełna analiza?</span>
+        </div>
+        <div class="question-item">
+         <svg height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 302.967 302.967" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path style="fill:#52fcae;" d="M151.483,302.967C67.956,302.967,0,235.017,0,151.483S67.956,0,151.483,0 s151.483,67.956,151.483,151.483S235.017,302.967,151.483,302.967z M151.483,24.416c-70.066,0-127.067,57.001-127.067,127.067 s57.001,127.067,127.067,127.067s127.067-57.001,127.067-127.067S221.555,24.416,151.483,24.416z"></path> </g> <g> <g> <path style="fill:#2f79ff;" d="M116.586,118.12c1.795-4.607,4.297-8.588,7.511-11.961c3.225-3.389,7.114-6.016,11.667-7.898 c4.547-1.904,9.633-2.845,15.262-2.845c7.261,0,13.32,0.995,18.183,2.997c4.857,1.996,8.768,4.482,11.738,7.441 c2.964,2.97,5.091,6.168,6.369,9.584c1.273,3.432,1.915,6.636,1.915,9.595c0,4.901-0.642,8.947-1.915,12.118 c-1.278,3.171-2.866,5.88-4.759,8.131c-1.898,2.252-3.987,4.172-6.293,5.755c-2.295,1.588-4.471,3.171-6.516,4.759 c-2.045,1.583-3.862,3.394-5.445,5.439c-1.588,2.04-2.589,4.601-2.991,7.664v5.831H140.6v-6.908 c0.305-4.395,1.153-8.072,2.529-11.036c1.382-2.964,2.991-5.499,4.83-7.598c1.844-2.089,3.786-3.911,5.836-5.445 c2.04-1.539,3.927-3.073,5.673-4.591c1.73-1.545,3.144-3.225,4.221-5.069c1.071-1.833,1.556-4.15,1.452-6.908 c0-4.705-1.148-8.18-3.454-10.427c-2.295-2.257-5.493-3.378-9.589-3.378c-2.758,0-5.134,0.533-7.131,1.605 s-3.628,2.513-4.911,4.302c-1.278,1.795-2.225,3.894-2.834,6.288c-0.615,2.415-0.919,4.982-0.919,7.756h-22.55 C113.85,127.785,114.791,122.732,116.586,118.12z M162.536,183.938v23.616h-24.09v-23.616H162.536z"></path> </g> </g> </g> </g> </g></svg>
+          <span>Czy potrzebne są szkice / alternatywne układy?</span>
+        </div>
+        <div class="question-item">
+        <svg height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 302.967 302.967" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path style="fill:#52fcae;" d="M151.483,302.967C67.956,302.967,0,235.017,0,151.483S67.956,0,151.483,0 s151.483,67.956,151.483,151.483S235.017,302.967,151.483,302.967z M151.483,24.416c-70.066,0-127.067,57.001-127.067,127.067 s57.001,127.067,127.067,127.067s127.067-57.001,127.067-127.067S221.555,24.416,151.483,24.416z"></path> </g> <g> <g> <path style="fill:#2f79ff;" d="M116.586,118.12c1.795-4.607,4.297-8.588,7.511-11.961c3.225-3.389,7.114-6.016,11.667-7.898 c4.547-1.904,9.633-2.845,15.262-2.845c7.261,0,13.32,0.995,18.183,2.997c4.857,1.996,8.768,4.482,11.738,7.441 c2.964,2.97,5.091,6.168,6.369,9.584c1.273,3.432,1.915,6.636,1.915,9.595c0,4.901-0.642,8.947-1.915,12.118 c-1.278,3.171-2.866,5.88-4.759,8.131c-1.898,2.252-3.987,4.172-6.293,5.755c-2.295,1.588-4.471,3.171-6.516,4.759 c-2.045,1.583-3.862,3.394-5.445,5.439c-1.588,2.04-2.589,4.601-2.991,7.664v5.831H140.6v-6.908 c0.305-4.395,1.153-8.072,2.529-11.036c1.382-2.964,2.991-5.499,4.83-7.598c1.844-2.089,3.786-3.911,5.836-5.445 c2.04-1.539,3.927-3.073,5.673-4.591c1.73-1.545,3.144-3.225,4.221-5.069c1.071-1.833,1.556-4.15,1.452-6.908 c0-4.705-1.148-8.18-3.454-10.427c-2.295-2.257-5.493-3.378-9.589-3.378c-2.758,0-5.134,0.533-7.131,1.605 s-3.628,2.513-4.911,4.302c-1.278,1.795-2.225,3.894-2.834,6.288c-0.615,2.415-0.919,4.982-0.919,7.756h-22.55 C113.85,127.785,114.791,122.732,116.586,118.12z M162.536,183.938v23.616h-24.09v-23.616H162.536z"></path> </g> </g> </g> </g> </g></svg>
+          <span>Jak duża jest przestrzeń (m²)?</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="cennik-cards">
+      <!-- MINI -->
+      <div class="cennik-card">
+        <div class="card-header card-mini">
+          <h3>MINI</h3>
+          <p class="card-subtitle">„Błyskawica"</p>
+        </div>
+        <div class="card-content">
+          <div class="card-for">
+            <strong>Dla kogo:</strong>
+            <p>Klientów, którzy chcą NAJSZYBSZEJ opinii</p>
+          </div>
+
+          <div class="card-time">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>1 dzień (online)</span>
+          </div>
+
+          <div class="card-includes">
+            <h4>Co obejmuje:</h4>
+            <ul>
+              <li>Analiza funkcjonalności 1–3 pomieszczeń</li>
+              <li>Wskazanie błędów w układzie</li>
+              <li>„3 najważniejsze rekomendacje"</li>
+              <li>Rysunek w sugestiami</li>
+            </ul>
+          </div>
+
+          <div class="card-price">
+            <span class="price-amount">250–500 zł</span>
+          </div>
+
+          <div class="card-extras">
+            <h4>Dodatki:</h4>
+            <ul>
+              <li>Dodatkowe pomieszczenie <strong>+100–150 zł</strong></li>
+        
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- STANDARD -->
+      <div class="cennik-card card-popular">
+        <div class="popular-badge">Popularny</div>
+        <div class="card-header card-standard">
+          <h3>STANDARD</h3>
+          <p class="card-subtitle">Kompleksowa analiza</p>
+        </div>
+        <div class="card-content">
+          <div class="card-for">
+            <strong>Dla kogo:</strong>
+            <p>Najbardziej typowy produkt dla większości klientów</p>
+          </div>
+
+          <div class="card-time">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>do 3 dni (online + analiza materiałów)</span>
+          </div>
+
+          <div class="card-includes">
+            <h4>Co obejmuje:</h4>
+            <ul>
+              <li>Analiza mieszkania / domu / biura (40–120 m²)</li>
+              <li>Diagnostyka błędów ergonomicznych</li>
+              <li>Propozycje optymalizacji funkcji</li>
+              <li>2–3 szybkie szkice koncepcyjne (ręczne lub proste CAD)</li>
+              <li>Checklista + priorytety</li>
+            </ul>
+          </div>
+
+          <div class="card-price">
+            <span class="price-amount">900–1500 zł</span>
+            <span class="price-note">Za większe metraże +8–15 zł / m²</span>
+          </div>
+
+          <div class="card-extras">
+            <h4>Dodatki:</h4>
+            <ul>
+              <li>Szybka korekta pod dewelopera (instalacje) <strong>+400–600 zł</strong></li>
+              <li>Analiza planów przed zakupem nieruchomości <strong>+300–500 zł</strong></li>
+              <li>Audyt drugiego wariantu rzutu <strong>+300–450 zł</strong></li>
+              <li>Wizyta na miejscu <strong>koszt przejazdu</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- PREMIUM -->
+      <div class="cennik-card">
+        <div class="card-header card-premium">
+          <h3>PREMIUM</h3>
+          <p class="card-subtitle">Z projektem wnętrza</p>
+        </div>
+        <div class="card-content">
+          <div class="card-for">
+            <strong>Dla kogo:</strong>
+            <p>Klientów, którzy chcą kompletnego rozwiązania pod klucz</p>
+          </div>
+
+          <div class="card-time">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Tydzień do Miesiąca, wizyta na miejscu (opcjonalnie)</span>
+          </div>
+
+          <div class="card-includes">
+            <h4>Co obejmuje:</h4>
+            <ul>
+              <li>Pełna analiza funkcjonalności i ergonomii</li>
+              <li>Projekt koncepcyjny wnętrza w CAD</li>
+              <li>Wymiary, detale i specyfikacje</li>
+              <li>Propozycje materiałów i kolorystyki</li>
+              <li>Elementy wystroju i aranżacji</li>
+              <li>Wizualizacje 3D (opcjonalnie)</li>
+              <li>Konsultacje z wykonawcami</li>
+            </ul>
+          </div>
+
+          <div class="card-price">
+            <span class="price-amount">Od 2500 zł</span>
+            <span class="price-note">Wycena indywidualna po oględzinach</span>
+          </div>
+
+          <div class="card-extras">
+            <h4>Dodatki:</h4>
+            <ul>
+              <li>Wizualizacje 3D (rendering) <strong>+800–1 500 zł</strong></li>
+              <li>Nadzór nad realizacją <strong>+15% wartości projektu</strong></li>
+              <li>Dobór mebli i akcesoriów <strong>+600–1 000 zł</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cennik-cta">
+      <h3>Nie wiesz który pakiet wybrać?</h3>
+      <p>Umów się na bezpłatną konsultację — pomożemy Ci dobrać odpowiedni audyt.</p>
+      <a href="#kontakt" class="btn-cennik-cta">Skontaktuj się z nami</a>
+    </div>
+  </div>
+</section>
+
+       <section id="proces" class="proces-section">
+        <div class="container">
+          <h2>Metr po metrze</h2>
+          
+          <p class="section-intro">Nasz proces w 6 krokach</p>
+          <div class="proces-timeline">
+            <article class="proces-step" data-step="1">
+              <div class="step-number">01</div>
+              <h3>Nowy lokal</h3>
+              <p>Masz nowy lokal. A z nim wątpliwości lub zwyczajnie potrzebę kilku zmian. Może chcesz się upewnić czy jest dobrze zaprojektowany.</p>
+            </article>
+            <article class="proces-step" data-step="2">
+              <div class="step-number">02</div>
+              <h3>Sprawdzam i doradzam</h3>
+              <p>Wysyłasz mi rzut i rozmawiamy o Twoich potrzebach. Uczciwie spojrzymy na Twój przyszły dom. Jeśli rysunki okażą się bezbłędne, nic tu po nas. Szybka konsultacja czy Twoja sytuacja jest adekwatna do poprawy. Ta usługa kosztuje symbolicznie.</p>
+            </article>
+            <article class="proces-step" data-step="3">
+              <div class="step-number">03</div>
+              <h3>Analiza i konsultacja</h3>
+              <p>Analiza i konsultacja stanu rzeczy. Punktowanie niedociągnięć dewelopera i propozycje.</p>
+            </article>
+            <article class="proces-step" data-step="4">
+              <div class="step-number">04</div>
+              <h3>Poprawiamy rzut</h3>
+              <p>Poprawiamy rzut lokalu. Zazwyczaj mieszkania, domu sprzedawany przez Dewelopera jest powielonym modułem. Często niedopracowanym. Rzadko optymalnym. Nigdy dokładnie pod Ciebie.</p>
+            </article>
+            <article class="proces-step" data-step="5">
+              <div class="step-number">05</div>
+              <h3>Oszczędzamy</h3>
+              <p>Przy współpracy na czas dowiesz się jakie zmiany wprowadzić w przestrzeni, aby koszt zmian lokatorskich pokrył jeszcze deweloper i żeby po oddaniu nie zabierać się za remont tylko przejść do aranżacji wnętrza.</p>
+            </article>
+            <article class="proces-step" data-step="6">
+              <div class="step-number">06</div>
+              <h3>Zmiany lokatorskie</h3>
+              <p>Wracasz do developera z rysunkami, które zrozumie wykonawca.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+ <section id="zeznania" class="zeznania-section">
+        <div class="container">
+          <h2>Opinie</h2>
+          <p class="section-intro">Kilka wypowiedzi na nasz temat</p>
+          <div class="testimonials-carousel">
+            <button class="carousel-btn prev" aria-label="Poprzednia opinia">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M15 18l-6-6 6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="testimonials-container">
+              
+                <article class="testimonial active">
+                <div class="quote-icon">"</div>
+                <blockquote>
+                  <p>Nawet najlepiej dopracowany projekt potrafi zyskać nową jakość, gdy trafi w ręce specjalisty. Kamil wydobył z naszych wnętrz to, co w nich najlepsze - południowe światło tam gdzie ma być światło i cień, tam gdzie jest jego miejsce. Pozornie drobne korekty okazały się mieć fundamentalne znaczenie, a ergonomia – słowo klucz – wyniosła komfort korzystania z naszych przestrzeni na zupełnie nowy poziom.</p>
+                </blockquote>
+                <footer>
+                  <cite>Krzysztof & Ola</cite>
+                  <p class="testimonial-meta">Dom szeregowy 120m² | 2025</p>
+                </footer>
+              </article>
+
+              
+              <article class="testimonial">
+                <div class="quote-icon">"</div>
+                <blockquote>
+                  <p>Dzięki Mieszkancom uniknęliśmy kosztownego remontu. Zauważyli problemy z układem pomieszczeń, których my nie dostrzegliśmy. Teraz mamy mieszkanie idealnie dopasowane do naszych potrzeb.</p>
+                </blockquote>
+                <footer>
+                  <cite>Anna i Marcin K.</cite>
+                  <p class="testimonial-meta">Mieszkanie 65m² | 2024</p>
+                </footer>
+              </article>
+              
+              
+              
+              <article class="testimonial">
+                <div class="quote-icon">"</div>
+                <blockquote>
+                  <p>Profesjonalne podejście i szybka realizacja. Wprowadzone zmiany w rzucie deweloperskim znacząco poprawiły funkcjonalność całego mieszkania. Ergonomia ma naprawdę znaczenie!</p>
+                </blockquote>
+                <footer>
+                  <cite>Piotr M.</cite>
+                  <p class="testimonial-meta">Mieszkanie 85m² | 2024</p>
+                </footer>
+              </article>
+              <article class="testimonial">
+                <div class="quote-icon">"</div>
+                <blockquote>
+                  <p>Bardzo polecam współpracę. Zespół dokładnie wysłuchał naszych potrzeb i zaproponował rozwiązania, o których sami byśmy nie pomyśleli. Dokumentacja była na tyle precyzyjna, że deweloper bez problemu wprowadził wszystkie zmiany.</p>
+                </blockquote>
+                <footer>
+                  <cite>Joanna i Tomasz W.</cite>
+                  <p class="testimonial-meta">Dom 120m² | 2023</p>
+                </footer>
+              </article>
+              <article class="testimonial">
+                <div class="quote-icon">"</div>
+                <blockquote>
+                  <p>Rewelacyjna usługa za rozsądną cenę. Optymalizacja przestrzeni kuchennej i łazienek była strzałem w dziesiątkę. Każdy metr został wykorzystany maksymalnie funkcjonalnie.</p>
+                </blockquote>
+                <footer>
+                  <cite>Katarzyna S.</cite>
+                  <p class="testimonial-meta">Mieszkanie 52m² | 2024</p>
+                </footer>
+              </article>
+            </div>
+            <button class="carousel-btn next" aria-label="Następna opinia">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="carousel-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="image-faq" class="image-faq-section">
+        <div class="container">
+          <div class="image-faq-grid">
+            <div class="image-faq-image">
+              <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Nowoczesne wnętrze - pytania FAQ">
+            </div>
+            <div class="image-faq-content">
+              <h2>Pytania</h2>
+              <p class="section-intro">Najczęściej zadawane pytania</p>
+              <div class="faq-container">
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Co zrobić jeśli nie mam rzutu (rysunków) powierzchni?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Umawiamy się na inwentaryzację. Siedzibę mamy we Wrocławiu, ale przy odpowiedniej umowie możliwe są wizyty w odleglejszych lokalizacjach.</p>
+                  </div>
+                </article>
+
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Czym jest projektowanie ergonomiczne?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Projektowanie ergonomiczne to podejście, które stawia człowieka i jego potrzeby w centrum procesu projektowego. Uwzględnia anatomię, fizjologię i psychologię użytkowników, aby stworzyć przestrzenie maksymalnie komfortowe, bezpieczne i funkcjonalne.</p>
+                  </div>
+                </article>
+
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Ile trwa proces projektowania?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Proces zależy od skali zmian i złożoności projektu. Wstępna konsultacja zajmuje 1-2 dni. Pełna analiza i projekt zmian lokatorskich to zazwyczaj 1-2 tygodnie. Pracujemy szybko, bo wiemy, że czas ma znaczenie w relacji z deweloperem.</p>
+                  </div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Czy ergonomia jest ważna w przestrzeni mieszkalnej?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Zdecydowanie tak. Spędzamy w domu większość naszego życia. Źle zaprojektowana przestrzeń odbija się na jakości Twojego życia.</p>
+                  </div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Jak przebiega współpraca?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Zaczyna się od wysłania rzutów lokalu lub sporządzenia takiego rzutu. Następnie rozmawiamy o Twoich potrzebach i oczekiwaniach. Po analizie przedstawiamy propozycje zmian. Po zatwierdzeniu przygotowujemy dokumentację techniczną, którą możesz przekazać deweloperowi lub fachowcowi od wykończeń.</p>
+                  </div>
+                </article>
+
+                <article class="faq-item">
+                  <button class="faq-question" aria-expanded="false">
+                    <span>Na jakim obszarze działacie?</span>
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                      <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                  <div class="faq-answer">
+                    <p>Działamy na terenie całej Polski. Większość pracy odbywa się zdalnie – analizujemy rzuty, konsultujemy online i przygotowujemy dokumentację. W razie potrzeby możliwe są też spotkania w wybranych lokalizacjach.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pytania" class="pytania-section" style="display: none;">
+        <div class="container">
+          <h2>Pytania</h2>
+          <p class="section-intro">Najczęściej zadawane pytania</p>
+          <div class="faq-container">
+
+<article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>1. Co zrobić jeśli nie mam rzutu (rysunków) powierzchni?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Umawiamy się na inwentaryzację. Siedzibę mamy we Wrocławiu, ale przy odpowiedniej umowie możliwe są wizyty w odleglejszych lokalizacjach.</p>
+              </div>
+            </article>
+            
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Czym jest projektowanie ergonomiczne?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Projektowanie ergonomiczne to podejście, które stawia człowieka i jego potrzeby w centrum procesu projektowego. Uwzględnia anatomię, fizjologię i psychologię użytkowników, aby stworzyć przestrzenie maksymalnie komfortowe, bezpieczne i funkcjonalne.</p>
+              </div>
+            </article>
+      
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>5. Ile trwa proces projektowania?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Proces zależy od skali zmian i złożoności projektu. Wstępna konsultacja zajmuje 1-2 dni. Pełna analiza i projekt zmian lokatorskich to zazwyczaj 1-2 tygodnie. Pracujemy szybko, bo wiemy, że czas ma znaczenie w relacji z deweloperem.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Czy ergonomia jest ważna w przestrzeni mieszkalnej?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Zdecydowanie tak. Spędzamy w domu większość naszego życia. Źle zaprojektowana przestrzeń może prowadzić do stresu, problemów ze snem, bólu pleców czy problemów z koncentracją. Ergonomiczne mieszkanie wspiera zdrowie fizyczne i psychiczne.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Jak przebiega współpraca?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Zaczyna się od wysłania rzutów lokalu. Następnie rozmawiamy o Twoich potrzebach i oczekiwaniach. Po analizie przedstawiamy propozycje zmian. Po zatwierdzeniu przygotowujemy dokumentację techniczną, którą możesz przekazać deweloperowi lub fachowcowi od wykończeń.</p>
+              </div>
+            </article>
+            
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">
+                <span>Na jakim obszarze działacie?</span>
+                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M19 9l-7 7-7-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Działamy na terenie całej Polski. Większość pracy odbywa się zdalnie – analizujemy rzuty, konsultujemy online i przygotowujemy dokumentację. W razie potrzeby możliwe są też spotkania w wybranych lokalizacjach.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+     
+      <section id="kontakt" class="kontakt-section">
+        <div class="container">
+          <h2>Kontakt</h2>
+          <p class="section-intro">Skontaktuj się z nami</p>
+          <div class="contact-grid">
+            <article class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h3>Email</h3>
+              <p><a href="projekt@mieszkan.com">projekt@mieszkan.com</a></p>
+            </article>
+            <article class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h3>Telefon</h3>
+              <p><a href="tel:+48791240584">+48 791 240 584</a></p>
+              <p>pn - pt: 10:00 - 17:00</p>
+                   
+
+
+              
+            </article>
+            <article class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h3>Lokalizacja</h3>
+              <p>Wrocław, Polska</p>
+              <p>Spotkania po umówieniu</p>
+            </article>
+
+<article class="contact-item">
+<svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+  <!-- Ramka kwadratowa -->
+  <rect x="3" y="3" width="18" height="18" rx="5"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Okrąg obiektywu -->
+  <circle cx="12" cy="12" r="4"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Mała kropka (dioda) -->
+  <circle cx="17" cy="7" r="1"
+        stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+    <h3>Instagram</h3>
+              <p><a href="https://www.instagram.com/">Link</a></p>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <a href="#hero">
+            <svg class="footer-logo-svg" viewBox="0 0 200 41.148" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <g>
+                  <polygon points="195.809,36.96 4.189,36.96 4.189,4.19 114.629,4.19 114.629,5.041 5.038,5.041 5.038,36.109 194.959,36.109 194.959,5.041 130.648,5.041 130.648,4.19 195.809,4.19 "/>
+                </g>
+                <g>
+                  <polyline points="191.971,39.946 195.385,36.536 198.797,33.122 "/>
+                  <rect x="193.687" y="31.706" transform="matrix(0.7073 0.707 -0.707 0.7073 83.0271 -127.4353)" width="3.398" height="9.655"/>
+                </g>
+                <g>
+                  <polyline points="191.971,8.028 195.385,4.616 198.797,1.202 "/>
+                  <rect x="193.686" y="-0.212" transform="matrix(0.7071 0.7071 -0.7071 0.7071 60.4903 -136.807)" width="3.399" height="9.654"/>
+                </g>
+                <g>
+                  <polyline points="1.201,39.946 4.614,36.536 8.027,33.122 "/>
+                  <rect x="2.914" y="31.707" transform="matrix(0.7069 0.7073 -0.7073 0.7069 27.1931 7.4458)" width="3.396" height="9.653"/>
+                </g>
+                <g>
+                  <polyline points="1.201,8.028 4.614,4.616 8.027,1.202 "/>
+                  <rect x="2.914" y="-0.211" transform="matrix(0.7067 0.7075 -0.7075 0.7067 4.6174 -1.9099)" width="3.397" height="9.652"/>
+                </g>
+                <g>
+                  <g>
+                    <polygon points="122.207,7.838 117.457,1.866 126.957,1.866 "/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M14.298,11.853h3.491l5.607,8.231l5.607-8.231h3.489v17.139h-4.765V20.95l-2.791,3.995h-3.081 l-2.793-4.043v8.089h-4.765V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M34.249,11.853h4.815v17.139h-4.815V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M40.82,11.853h12.95v3.994h-8.137v2.456h7.391v3.899h-7.391v2.792h8.282v3.997H40.82V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M53.408,26.606l3.01-3.008c1.251,1.202,2.598,1.829,4.187,1.829c1.325,0,1.999-0.434,1.999-1.132 c0-2.456-7.967-1.469-7.967-7.389c0-3.322,2.527-5.344,6.425-5.344c2.552,0,4.863,0.866,6.307,2.358l-3.032,3.009 c-1.06-1.035-2.07-1.517-3.321-1.517c-1.012,0-1.639,0.313-1.639,0.964c0,2.334,7.967,1.299,7.967,7.412 c0,3.489-2.598,5.488-7.122,5.488C57.283,29.278,55.237,28.46,53.408,26.606z"/>
+                  </g>
+                  <g>
+                    <path d="M67.465,25.644l7.412-9.819h-7.028v-3.972H81.23v3.345l-7.437,9.821h7.221v3.973H67.465V25.644z"/>
+                  </g>
+                  <g>
+                    <path d="M82.24,11.853h4.815v7.631l5.293-7.631h5.8l-6.039,8.158l6.305,8.98h-5.777l-5.583-8.33v8.33H82.24 V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M103.229,11.853h4.91l6.449,17.139h-5.006l-0.939-2.891h-6.063l-0.964,2.891h-4.91L103.229,11.853z M107.393,22.347l-1.733-5.319l-1.807,5.319H107.393z"/>
+                  </g>
+                  <g>
+                    <path d="M114.506,11.853h3.369l7.221,9.074v-9.074h4.813v17.139h-3.61l-6.98-8.762v8.762h-4.812V11.853z"/>
+                  </g>
+                  <g>
+                    <path d="M130.314,26.63c0-1.491,1.107-2.672,2.623-2.672c1.492,0,2.6,1.181,2.6,2.672 c0,1.492-1.107,2.648-2.6,2.648C131.422,29.278,130.314,28.122,130.314,26.63z"/>
+                  </g>
+                  <g>
+                    <path d="M134.205,20.397c0-5.104,4.041-8.834,9.288-8.834c2.672,0,4.91,0.891,6.547,2.358l-3.2,3.226 c-0.771-0.843-1.877-1.349-3.347-1.349c-2.575,0-4.38,1.759-4.38,4.599c0,2.863,1.805,4.645,4.38,4.645 c1.444,0,2.575-0.457,3.418-1.324l3.226,3.225c-1.709,1.47-3.73,2.336-6.596,2.336C138.295,29.278,134.205,25.499,134.205,20.397 z"/>
+                  </g>
+                  <g>
+                    <path d="M148.217,20.397c0-5.104,3.924-8.881,9.289-8.881c5.369,0,9.292,3.776,9.292,8.904 c0,5.104-3.923,8.906-9.243,8.906C152.188,29.327,148.217,25.499,148.217,20.397z M161.889,20.397 c0-2.84-1.711-4.646-4.383-4.646c-2.694,0-4.379,1.807-4.379,4.646c0,2.863,1.685,4.692,4.379,4.692 C160.203,25.09,161.889,23.261,161.889,20.397z"/>
+                  </g>
+                  <g>
+                    <path d="M167.344,11.853h3.492l5.607,8.231l5.607-8.231h3.488v17.139h-4.765V20.95l-2.791,3.995h-3.081 l-2.793-4.043v8.089h-4.766V11.853z"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <p>&copy; Wszystkie prawa zastrzeżone. Zaprojektowane w Studioniepokój.pl</p>
+        <p></p>
+      </div>
+    </footer>
+
+
+    <script>
+  const slides = document.querySelectorAll('.hero-background');
+  let index = 0;
+
+  setInterval(() => {
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+  }, 3500); // zmiana co 5 sek
+</script>
+
+
+    <script type="module" src="/main.js"></script>
+
+
+
+    
+  </body>
+</html>
